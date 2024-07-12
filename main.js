@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let user_ans = await inquirer.prompt({
     type: "input",
